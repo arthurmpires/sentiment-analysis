@@ -1,7 +1,8 @@
 # virtual environment
-.env
+.venv
 
 # test cache
-.cache/*
-tests/__pycache__/*
-*.pytest_cache/
+app/__pycache__
+
+# temp files used for faster debugging and analysis
+temp*
